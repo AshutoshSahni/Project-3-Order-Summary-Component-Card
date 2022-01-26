@@ -1,0 +1,64 @@
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width:380px;
+    background-color: #fff;
+    margin:auto;
+    align-items: center;
+    border-radius: .7em;
+    box-shadow: 2px 0.5px 22px hsl(225, 48%, 82%);
+}
+
+img.hero {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: .7em .7em 0em 0em;
+}
+
+.section {
+    padding:3% 13%;
+    text-align: center;
+}
+
+div.plan {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:70%;
+    background-color: hsl(225, 100%, 98%);
+    padding:10px;
+    border-radius: .5em;
+    margin-bottom: 10px;
+}
+
+.payment-btn {
+    background-color:hsl(245, 75%, 52%);
+    border-radius: .5em;
+    border:none;
+    padding:13px 33px;
+    color:#fff;
+    font-weight: 900;
+    min-width:250px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.cancel-btn {
+    border:none;
+    background-color: #fff;
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    min-width: 250px;
+    cursor: pointer;
+    padding-bottom: 33px;
+}
